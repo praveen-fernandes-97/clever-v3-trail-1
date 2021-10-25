@@ -4,8 +4,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.swagger</groupId>
   <artifactId>swagger-java-client</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
+  <distributionManagement>
+		<repository>
+			<id>clever-library</id>
+			<url>https://maven.pkg.github.com/praveen-fernandes-97/clever-v3-trail-1</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</distributionManagement>
   <build>
 		<plugins>
 			<plugin>
@@ -31,16 +40,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<distributionManagement>
-		<repository>
-			<id>clever-library</id>
-			<url>https://maven.pkg.github.com/praveen-fernandes-97/clever-v3-trail-1</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.threeten</groupId>
